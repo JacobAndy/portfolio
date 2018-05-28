@@ -5,7 +5,7 @@ class Contact extends Component {
   state = {};
   render() {
     return (
-      <div className="initial-setup">
+      <div className="initial-setup" id="contact">
         <p>Contact Page</p>
       </div>
     );

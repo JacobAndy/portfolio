@@ -5,7 +5,7 @@ class About extends Component {
   state = {};
   render() {
     return (
-      <div className="initial-setup">
+      <div className="initial-setup" id="about">
         <p>About Page</p>
       </div>
     );
