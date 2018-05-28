@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
 }
 .nav-link-holder > h2,
 .nav-link-holder > h5 {
