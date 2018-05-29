@@ -1,12 +1,19 @@
-.landing-page-header {
+.landing-page-header,
+.landing-page-header-shrink {
   width: 100%;
-  height: 10vh;
+
   background: #111;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   position: fixed;
+}
+.landing-page-header {
+  height: 8vh;
+}
+.landing-page-header-shrink {
+  height: 4vh;
 }
 .nav-link-holder > h2,
 .nav-link-holder > h5 {
@@ -17,7 +24,7 @@
 .nav-link-holder > h2 {
   font-weight: 500;
   font-size: 35px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .nav-link-holder > h5 {
   opacity: 0;
